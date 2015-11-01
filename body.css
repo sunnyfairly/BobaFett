@@ -4,6 +4,28 @@ body{
   padding: 0;
 }
 
+/*Header Only*/
+.c1header {
+  background-image: url('http://vignette1.wikia.nocookie.net/starwars/images/b/b4/Slave1.jpg/revision/latest?cb=20070720175658');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 1300px 200px;
+    background-color: #CCCCCC;
+  border-bottom: 3px;
+  border-color: #0000FF;
+  height: 200px;
+  padding: 10px 0 2px 140px;
+  font-size: 20pt;
+  color: white;
+  float: bottom;
+}
+.def{
+  font-size: 12px;
+}
+
+
+/*All main body css*/
 .meat{
 	width: 1000px;
 	margin: auto;
@@ -67,7 +89,7 @@ body{
 
 .call-to-action h2 {
   margin-top: 0;
-margin-left: 2px;
+  margin-left: 2px;
   background: #AAFFAA;
   border: 2px solid #00AA00;
   color: #005500;
@@ -76,6 +98,8 @@ margin-left: 2px;
   padding: 7px;
   float: left;
 }
+
+
 a.button2 {
   margin-top: 2px;  
   margin-left: 2px;
@@ -86,4 +110,18 @@ a.button2 {
   text-decoration: none;
   padding: 7px;
   float: left;
+}
+
+/*Footer only*/
+.c1footer {
+  background-image: url('http://www.imfdb.org/images/thumb/c/c2/BobaFett-StarWars2.jpg/600px-BobaFett-StarWars2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 1300px 200px;
+    background-color: #CCCCCC;
+    height: 150px;
+  padding: 20px 0 30px 140px;
+  font-size: 8pt;
+  float: bottom;
 }
